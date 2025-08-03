@@ -48,11 +48,6 @@
 	               controlbar_overlap.no-fractionalscaling="10"
 	               controlbar_overlap.fractionalscaling="0"
 				   design_bgcolor="0x2C2C2C" 
-				   bgcolor="0xFF69B4"         
-                   design_bgalpha="0.4"             
-                   design_bgborder="1 0xFFFFFF 0.2"   
-                   design_bgroundedge="15"   
-				   design_bgshadow="2 2 10 0x000000 0.5"       
 	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
 	               design_thumbborder_padding="2"
 	               design_thumbborder_bgroundedge="0"
@@ -137,6 +132,9 @@
 
 		<hotspot name="spot1754507918" style="skin_hotspotstyle"  onloaded="do_crop_animation(64,64, 40);"  ath="144.423" atv="-2.101" depth="1000.0" linkedscene="scene_airport" linkedscene_lookat="-34.59,13.13,120.0" linkedscene_spot="spot1754507002" linkedscene_hoffset="177.75" use3dtransition="true" />
 
+			<hotspot name="spot1754507012" style="skin_hotspotstyle" onloaded="do_crop_animation(64,64, 10);" ath="0" atv="0" depth="1000.0" linkedscene="scene_lake"  linkedscene_lookat="-34.59,13.13,120.0" linkedscene_spot="spot1754507004" linkedscene_hoffset="177.75" use3dtransition="true" />
+
+
         <!-- <include url="backgroundsound.xml" /> -->
 
 		<hotspot name="spot1" style="flyoutimage"
@@ -207,6 +205,7 @@
 			<cube url="panos/Church.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3328,6784" />
 		</image>
 		<hotspot name="spot1754507003" style="skin_hotspotstyle" onloaded="do_crop_animation(64,64, 10);" ath="-90.0" atv="0.0" depth="1000.0" linkedscene="scene_lake" linkedscene_lookat="-90.0,0.0,120.0" linkedscene_spot="spot1754507004" linkedscene_hoffset="-90.0" use3dtransition="true" />
+	
 		<!-- <include url="backgroundsound.xml" /> -->
 	</scene>
 
@@ -222,7 +221,7 @@
 			<cube url="panos/lake.tiles/%s/l%l/%v/l%l_%s_%v_%h.jpg" multires="512,1024,2048,4160" />
 		</image>
 		<hotspot name="spot1754507004" style="skin_hotspotstyle" onloaded="do_crop_animation(64,64, 10);" ath="-90.0" atv="0.0" depth="1000.0" linkedscene="scene_church" linkedscene_lookat="-90.0,0.0,120.0" linkedscene_spot="spot1754507003" linkedscene_hoffset="-90.0" use3dtransition="true" />
-		<include url="backgroundsound.xml" />
+		<!-- <include url="backgroundsound.xml" /> -->
 	</scene>
 
 	<scene name="scene_wedding_hall" title="Wedding Hall" onstart="" thumburl="panos/Wedding_Hall.tiles/thumb.jpg" lat="25.0668" lng="73.0093" heading="0">
